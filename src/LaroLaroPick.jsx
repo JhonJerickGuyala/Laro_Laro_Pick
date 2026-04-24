@@ -212,8 +212,7 @@ export default function LaroLaroPick() {
   const [config, setConfig] = useState({ leftChairs: 30, rightChairs: 30, winnersCount: 3 });
   const [gameState, setGameState] = useState("idle");
   
-  // Default timer set to 20.50 seconds
-  const DEFAULT_DURATION_MS = 20500;
+  const DEFAULT_DURATION_MS = 20000;
   const [timeLeftMs, setTimeLeftMs] = useState(DEFAULT_DURATION_MS);
   
   const [litLeft, setLitLeft] = useState(new Set());
